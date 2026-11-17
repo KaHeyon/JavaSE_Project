@@ -13,7 +13,7 @@ public class TestIntArray {
 		}
 		System.out.println("배열값의 합은 :" + getSum(nums2));
 		
-		//배열을 생성
+		//배열을 선언 및 생성
 		nums = new int[3];
 		System.out.println(nums.length);
 		System.out.println(nums);
@@ -31,6 +31,8 @@ public class TestIntArray {
 //			//sum = sum + nums2[i];
 //			sum += nums2[i];
 //		}
+		
+		// 권장
 		for (int value : nums2) {
 			sum += value;
 		}
